@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate-build",
+  "main": "index.js",
+  "dependencies": {
+    "through": "~2.3.4",
+    "rework": "~1.0.1",
+    "throttle": "~1.0.3",
+    "rework-import": "~1.2.1",
+    "myth": "~1.2.0",
+    "browserify": "~5.11.2"
+  },
+  "version": "0.0.1",
+  "description": "Personal build process using browserify for scripts and myth for css",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mnmly/boilerplate-build.git"
+  },
+  "keywords": [
+    "build",
+    "browserify",
+    "myth"
+  ],
+  "author": "Hiroaki Yamane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnmly/boilerplate-build/issues"
+  },
+  "homepage": "https://github.com/mnmly/boilerplate-build"
+}
