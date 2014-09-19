@@ -15,7 +15,7 @@ var build = require('boilerplate-build');
 var package = require('./package.json');
 
 var options = {
-  out: 'build/build',    // => output dir + name
+  out: 'build',          // => output
   name: 'main'           // => exposed require module name (default: `boot`)
   main: package.browser, // => entry file for scripts
   style: package.style,  // => entry file for styles
