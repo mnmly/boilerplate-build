@@ -20,7 +20,8 @@ var options = {
   main: package.browser, // => entry file for scripts
   style: package.style,  // => entry file for styles
   debug: true,           // => debug to be true
-  paths: ["lib"]         // => other misc browserify options
+  paths: ["lib"]         // => other misc browserify options,
+  baseDir: process.cwd()
 };
 
 build.script(options, function(e){
