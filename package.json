@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-build",
   "main": "index.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "browserify": "^5.11.2",
     "css-whitespace": "^1.1.0",
