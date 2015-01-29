@@ -1,16 +1,19 @@
 {
   "name": "boilerplate-build",
   "main": "index.js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {
     "browserify": "^5.11.2",
     "css-whitespace": "^1.1.0",
+    "glsl-deparser": "^1.0.0",
+    "glslify-stream": "^1.1.1",
     "myth": "~1.2.0",
+    "new-from": "0.0.3",
     "rework": "~1.0.1",
     "rework-import": "~1.2.1",
+    "stringify": "^3.0.0",
     "throttle": "~1.0.3",
-    "through": "~2.3.4",
-    "stringify": "^3.0.0"
+    "through": "~2.3.4"
   },
   "description": "Personal build process using browserify for scripts and myth for css",
   "devDependencies": {},
